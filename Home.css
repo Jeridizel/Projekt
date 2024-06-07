@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*background-image: url("cool-background.svg");*/
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    scroll-margin-top: 8vw;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    color: white;
+    padding: 2.5%;
+    height: 2%;
+    width: 100%;
+    z-index: 2;
+
+}
+
+.logo img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5%;
+    float: left;
+    z-index: -2;
+    display: none;
+}
+
+.naslovnica {
+    position: absolute;
+    top: 30%;
+    margin-left: 25%;
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+}
+
+.kontakt {
+    position: absolute;
+    top: 30%;
+    margin-left: 37%;
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+}
+
+.o_nama {
+    position: absolute;
+    top: 30%;
+    margin-left: 49%;
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+}
+
+.kosarica{
+    position: absolute;
+    top: 10%;
+    margin-left: 62%;
+    height: 75%;
+}
+
+.admin{
+    position: absolute;
+    top: 30%;
+    margin-left: 72%;
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+}
+
+.logout{
+    position: absolute;
+    top: 10%;
+    margin-left: 86%;
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.glavno {
+    text-align: center;
+    float: left;
+    width: 100%;
+    text-decoration: none;;
+    clear: both;
+}
+
+.naslov {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.dron{
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dron img {
+    margin-top: 3%;
+    width: 25%;
+    margin-bottom: 3%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Ovo će rasporediti proizvode ravnomjerno */
+    justify-content: flex-start;
+}
+
+.product {
+    position: relative; 
+
+    width: 31%; /* Promijenite širinu po potrebi */
+    margin-bottom: 20px; /* Da biste dodali razmak između proizvoda */
+    margin-left: 10px;
+    padding: 10px; /* Opciono: dodajte ovdje stilizaciju po potrebi */
+    border: 1px solid #ccc; /* Opciono: dodajte ovdje stilizaciju po potrebi */
+}
+
+.product img {
+    max-width: 100%; /* Da bi slike unutar proizvoda bile prilagođene */
+    height: auto; /* Da bi očuvali omjer širine i visine */
+    margin-bottom: 8%;
+}
+
+.bicikli{
+    float: left;
+    margin-top: 3%;
+}
+
+.gumbi {
+    position: absolute;
+    bottom: 10px; 
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+}
+
+.gumbi input[type="submit"] {
+    padding: 10px;
+    border: none;
+    background-color: #000000;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 50%;
+}

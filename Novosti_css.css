@@ -1,0 +1,51 @@
+header {
+    background-color: black;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px 0;
+}
+
+header a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+.logo img {
+    width: 10%;
+    float: left;
+    z-index: 2;
+    margin-left: 15%;
+}
+.portfolio img {
+    width: 17vw;
+    height: 12vw;
+}
+.row{
+    padding-bottom: 5%;
+    
+}
+.portfolio h4,h3 {
+    padding-left: 10%;
+}
+
+
+.portfolio h4{
+    font-size: 15px;
+    line-height: 1.5;
+}
+.portfolio {
+    margin-left: 20%;
+}
+.row h4{
+    margin-top: 1vw;
+}
+.row h6 {
+    color: #f8af4d;;
+}
+h3 {
+    font-family: "Sofia", sans-serif;
+}
+body{
+    font-family: "Trirong", serif;
+}

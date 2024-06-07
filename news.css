@@ -1,0 +1,157 @@
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  color: white;
+  padding: 2.5%;
+  height: 2%;
+  width: 100%;
+  z-index: 2;
+
+}
+
+.logo img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5%;
+  float: left;
+  z-index: -2;
+  display: none;
+}
+
+.naslovnica {
+  position: absolute;
+  top: 30%;
+  margin-left: 25%;
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+}
+
+.kontakt {
+  position: absolute;
+  top: 30%;
+  margin-left: 37%;
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+}
+
+.o_nama {
+  position: absolute;
+  top: 30%;
+  margin-left: 49%;
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+}
+
+.kosarica{
+  position: absolute;
+  top: 23%;
+  margin-left: 62%;
+  height: 75%;
+}
+
+.admin{
+  position: absolute;
+  top: 30%;
+  margin-left: 72%;
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+}
+
+.logout{
+  position: absolute;
+  top: 10%;
+  margin-left: 86%;
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.news-card {
+    margin-bottom: 30px;
+    background-color: #fff;
+    border: 1px solid #cfdbe2;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+body {
+    margin-top: 8%;
+}
+
+.card {
+    margin: 50px 0; /* Dodajte razmak između kartica */
+}
+
+.news-card-header {
+    background-color: #f0f0f0;
+    padding: 10px 15px;
+}
+
+.news-card-header h4 {
+    margin-bottom: 0;
+}
+
+.news-card-body {
+    display: flex;
+    padding: 15px;
+}
+
+.news-card-image {
+    flex: 0 0 30%;
+    padding-right: 15px;
+}
+
+.news-card-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.news-card-content {
+    flex: 1;
+}
+
+.news-card-description {
+    margin-bottom: 15px;
+}
+
+.news-card-read-more {
+    text-align: right;
+}
+
+.news-card-read-more a {
+    color: #007bff;
+    text-decoration: none;
+}
